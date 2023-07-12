@@ -1,85 +1,84 @@
 <!Doctype HTML>
 <html>
-    <head> 
-        <title>first web page</title>
-        <script src="script.js"></script>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@00;400&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div>
+
+<head>
+    <title>first web page</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@00;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
         <h1>My first web page</h1>
-        </div>
-        <h2>What this is</h2>
-        <p>Welcome to <em>my first webpage.</em> 
-            I created this webpage without the assistance of a webpage editor.
+    </div>
+    <h2>What this is</h2>
+    <p>Welcome to <em>my first webpage.</em>
+        I created this webpage without the assistance of a webpage editor.
         Just my little text editor and a keen <b>understanding of html</b>.</p>
-        <h2>Why this is</h2>
-        <ul>
-            <li>To learn HTML</li>
-            <li>List element</li>
-            <ol>
-                <li>Home</li>
-                <li>FAQ</li>
-                <li>Contact</li>
-                <li>About</li>
-            </ol>
-            <li>Here I have created ordered and unordered list</li>
-        </ul>
-            <h2>ZeusLearning.com</h2>
-            <a href="https://www.zeuslearning.com/" target="_blank">
-                This link will open zeuslearning.com in new tab
-            </a>
-            <h2>On click of following image navigate to Google.com</h2>
-            <a href="https://www.google.com" target="_blank">
-                <img 
-                    src="https://pngimg.com/uploads/google/google_PNG19625.png" 
-                    alt="google logo"
-                    width="100"
-                    height="45">
-                </a>
-            <h3>Some random table</h3>
-            <table>
-                <tr>
-                    <td>Row 1, cell 1</td>
-                    <td>Row 1, cell 2</td>
-                    <td>Row 1, cell 3</td>
-                </tr>
-                <tr>
-                    <td>Row 2, cell 1</td>
-                    <td>Row 2, cell 2</td>
-                    <td>Row 2, cell 3</td>
-                </tr>
-                <tr>
-                    <td>Row 3, cell 1</td>
-                    <td>Row 3, cell 2</td>
-                    <td>Row 3, cell 3</td>
-                </tr>
-                <tr>
-                    <td>Row 4, cell 1</td>
-                    <td>Row 4, cell 2</td>
-                    <td>Row 4, cell 3</td>
-                </tr>
-            </table>
-        <h3>Some random form</h3>
-        <p><b>Note:</b> It looks the part, but won't do anything.</p>
-        <form name="pform" onsubmit="return validateForm()">
+    <h2>Why this is</h2>
+    <ul>
+        <li>To learn HTML</li>
+        <li>List element</li>
+        <ol>
+            <li>Home</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ol>
+        <li>Here I have created ordered and unordered list</li>
+    </ul>
+    <h2>ZeusLearning.com</h2>
+    <a href="https://www.zeuslearning.com/" target="_blank">
+        This link will open zeuslearning.com in new tab
+    </a>
+    <h2>On click of following image navigate to Google.com</h2>
+    <a href="https://www.google.com" target="_blank">
+        <img src="https://pngimg.com/uploads/google/google_PNG19625.png" alt="google logo" width="100" height="45">
+    </a>
+    <h3>Some random table</h3>
+    <table>
+        <tr>
+            <td>Row 1, cell 1</td>
+            <td>Row 1, cell 2</td>
+            <td>Row 1, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, cell 1</td>
+            <td>Row 2, cell 2</td>
+            <td>Row 2, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, cell 1</td>
+            <td>Row 3, cell 2</td>
+            <td>Row 3, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, cell 1</td>
+            <td>Row 4, cell 2</td>
+            <td>Row 4, cell 3</td>
+        </tr>
+    </table>
+    <h3>Some random form</h3>
+    <p><b>Note:</b> It looks the part, but won't do anything.</p>
+    <form name="pform" onsubmit="return validateForm()">
             <h1>Library Form</h1>
             <label for="Name">Book Name:</label> <br><br>
             <input type="text" id="Name" name="Name" placeholder="Name of Author">  <br><br>
             <label for="Name">Book Genre:</label> <br><br>
             <input type="text" id="Name" name="Name" placeholder="Genre">  <br><br>
-            <label for="Comments">Comments:</label> <br><br>
+        <label for="Comments">Comments:</label> <br><br>
             <textarea rows="9" cols="25" name="Comments" style="overflow-y:scroll;" placeholder="Description of Book"></textarea>
-            <br>
-            <p>Are you:</p>
-            <input type="radio" id="male" name="gender" value="Male">
-            <label for="male">Male</label> <br> <br>
-            <input type="radio" id="female" name="gender" value="Female">
-            <label for="female">Female</label> <br><br>
-            <input type="submit" value="Submit Query">
-        </form>
-    </body>
+        <br>
+        <p>Are you:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label> <br> <br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label> <br><br>
+        <input type="submit" value="Submit Query">
+    </form>
+</body>
+
 </html>
